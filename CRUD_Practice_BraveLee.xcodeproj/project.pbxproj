@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45C53441F6E38B5C4BD48165 /* Pods_CLUD_Practice_BraveLee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFFC2F9E7470BED322A7516 /* Pods_CLUD_Practice_BraveLee.framework */; };
 		DE2A3F98240CEA9A00E5E792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A3F97240CEA9A00E5E792 /* AppDelegate.swift */; };
-		DE2A3F9A240CEA9A00E5E792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A3F99240CEA9A00E5E792 /* SceneDelegate.swift */; };
 		DE2A3F9C240CEA9A00E5E792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A3F9B240CEA9A00E5E792 /* ViewController.swift */; };
 		DE2A3F9F240CEA9A00E5E792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2A3F9D240CEA9A00E5E792 /* Main.storyboard */; };
 		DE2A3FA1240CEA9B00E5E792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2A3FA0240CEA9B00E5E792 /* Assets.xcassets */; };
 		DE2A3FA4240CEA9B00E5E792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2A3FA2240CEA9B00E5E792 /* LaunchScreen.storyboard */; };
+		DE5265E7240CF1A400734071 /* CLUDResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5265E5240CF1A400734071 /* CLUDResultTableViewCell.swift */; };
+		DE5265E8240CF1A400734071 /* CLUDResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5265E6240CF1A400734071 /* CLUDResultTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE2A3F94240CEA9A00E5E792 /* CLUD_Practice_BraveLee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLUD_Practice_BraveLee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFFC2F9E7470BED322A7516 /* Pods_CLUD_Practice_BraveLee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLUD_Practice_BraveLee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C66BD4448A9E90F4D788520 /* Pods-CLUD_Practice_BraveLee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLUD_Practice_BraveLee.debug.xcconfig"; path = "Target Support Files/Pods-CLUD_Practice_BraveLee/Pods-CLUD_Practice_BraveLee.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5D5FD349F1808823865199 /* Pods-CLUD_Practice_BraveLee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLUD_Practice_BraveLee.release.xcconfig"; path = "Target Support Files/Pods-CLUD_Practice_BraveLee/Pods-CLUD_Practice_BraveLee.release.xcconfig"; sourceTree = "<group>"; };
+		DE2A3F94240CEA9A00E5E792 /* CRUD_Practice_BraveLee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUD_Practice_BraveLee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2A3F97240CEA9A00E5E792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE2A3F99240CEA9A00E5E792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE2A3F9B240CEA9A00E5E792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE2A3F9E240CEA9A00E5E792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE2A3FA0240CEA9B00E5E792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2A3FA3240CEA9B00E5E792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2A3FA5240CEA9B00E5E792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5265E5240CF1A400734071 /* CLUDResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUDResultTableViewCell.swift; sourceTree = "<group>"; };
+		DE5265E6240CF1A400734071 /* CLUDResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLUDResultTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +37,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C53441F6E38B5C4BD48165 /* Pods_CLUD_Practice_BraveLee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3FF8EEF67B4B5EC32543F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFFC2F9E7470BED322A7516 /* Pods_CLUD_Practice_BraveLee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A0E1683A439BC656A9C5A43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C66BD4448A9E90F4D788520 /* Pods-CLUD_Practice_BraveLee.debug.xcconfig */,
+				AC5D5FD349F1808823865199 /* Pods-CLUD_Practice_BraveLee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE2A3F8B240CEA9A00E5E792 = {
 			isa = PBXGroup;
 			children = (
 				DE2A3F96240CEA9A00E5E792 /* CLUD_Practice_BraveLee */,
 				DE2A3F95240CEA9A00E5E792 /* Products */,
+				5A0E1683A439BC656A9C5A43 /* Pods */,
+				1B3FF8EEF67B4B5EC32543F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DE2A3F95240CEA9A00E5E792 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE2A3F94240CEA9A00E5E792 /* CLUD_Practice_BraveLee.app */,
+				DE2A3F94240CEA9A00E5E792 /* CRUD_Practice_BraveLee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +82,40 @@
 		DE2A3F96240CEA9A00E5E792 /* CLUD_Practice_BraveLee */ = {
 			isa = PBXGroup;
 			children = (
-				DE2A3F97240CEA9A00E5E792 /* AppDelegate.swift */,
-				DE2A3F99240CEA9A00E5E792 /* SceneDelegate.swift */,
-				DE2A3F9B240CEA9A00E5E792 /* ViewController.swift */,
-				DE2A3F9D240CEA9A00E5E792 /* Main.storyboard */,
-				DE2A3FA0240CEA9B00E5E792 /* Assets.xcassets */,
-				DE2A3FA2240CEA9B00E5E792 /* LaunchScreen.storyboard */,
+				DE5265E4240CEC4B00734071 /* System */,
+				DE5265E3240CEC2E00734071 /* Resource */,
+				DE5265E2240CEBFC00734071 /* Views */,
 				DE2A3FA5240CEA9B00E5E792 /* Info.plist */,
 			);
 			path = CLUD_Practice_BraveLee;
+			sourceTree = "<group>";
+		};
+		DE5265E2240CEBFC00734071 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2A3F9B240CEA9A00E5E792 /* ViewController.swift */,
+				DE5265E5240CF1A400734071 /* CLUDResultTableViewCell.swift */,
+				DE5265E6240CF1A400734071 /* CLUDResultTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE5265E3240CEC2E00734071 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE2A3F9D240CEA9A00E5E792 /* Main.storyboard */,
+				DE2A3FA0240CEA9B00E5E792 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DE5265E4240CEC4B00734071 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				DE2A3F97240CEA9A00E5E792 /* AppDelegate.swift */,
+				DE2A3FA2240CEA9B00E5E792 /* LaunchScreen.storyboard */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE2A3FA8240CEA9B00E5E792 /* Build configuration list for PBXNativeTarget "CLUD_Practice_BraveLee" */;
 			buildPhases = (
+				6A788372A19464B780F1A7EA /* [CP] Check Pods Manifest.lock */,
 				DE2A3F90240CEA9A00E5E792 /* Sources */,
 				DE2A3F91240CEA9A00E5E792 /* Frameworks */,
 				DE2A3F92240CEA9A00E5E792 /* Resources */,
+				C9E9A4CE821211F644030C26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +137,7 @@
 			);
 			name = CLUD_Practice_BraveLee;
 			productName = CLUD_Practice_BraveLee;
-			productReference = DE2A3F94240CEA9A00E5E792 /* CLUD_Practice_BraveLee.app */;
+			productReference = DE2A3F94240CEA9A00E5E792 /* CRUD_Practice_BraveLee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,11 +180,54 @@
 			files = (
 				DE2A3FA4240CEA9B00E5E792 /* LaunchScreen.storyboard in Resources */,
 				DE2A3FA1240CEA9B00E5E792 /* Assets.xcassets in Resources */,
+				DE5265E8240CF1A400734071 /* CLUDResultTableViewCell.xib in Resources */,
 				DE2A3F9F240CEA9A00E5E792 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A788372A19464B780F1A7EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLUD_Practice_BraveLee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E9A4CE821211F644030C26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLUD_Practice_BraveLee/Pods-CLUD_Practice_BraveLee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLUD_Practice_BraveLee/Pods-CLUD_Practice_BraveLee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLUD_Practice_BraveLee/Pods-CLUD_Practice_BraveLee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE2A3F90240CEA9A00E5E792 /* Sources */ = {
@@ -140,7 +236,7 @@
 			files = (
 				DE2A3F9C240CEA9A00E5E792 /* ViewController.swift in Sources */,
 				DE2A3F98240CEA9A00E5E792 /* AppDelegate.swift in Sources */,
-				DE2A3F9A240CEA9A00E5E792 /* SceneDelegate.swift in Sources */,
+				DE5265E7240CF1A400734071 /* CLUDResultTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +378,19 @@
 		};
 		DE2A3FA9240CEA9B00E5E792 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C66BD4448A9E90F4D788520 /* Pods-CLUD_Practice_BraveLee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNKLP2U2NQ;
 				INFOPLIST_FILE = CLUD_Practice_BraveLee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tpsinc.iosstudy.3rd.CLUD-Practice-BraveLee";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tpsinc.iosstudy.3rd.CRUD-Practice-BraveLee";
+				PRODUCT_NAME = CRUD_Practice_BraveLee;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +398,19 @@
 		};
 		DE2A3FAA240CEA9B00E5E792 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5D5FD349F1808823865199 /* Pods-CLUD_Practice_BraveLee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNKLP2U2NQ;
 				INFOPLIST_FILE = CLUD_Practice_BraveLee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tpsinc.iosstudy.3rd.CLUD-Practice-BraveLee";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tpsinc.iosstudy.3rd.CRUD-Practice-BraveLee";
+				PRODUCT_NAME = CRUD_Practice_BraveLee;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
